@@ -52,7 +52,6 @@ ru ftplugin/tex_nine/tex_nine_common.vim
 
 setlocal completeopt=longest,menuone 
 setlocal fo=tcq
-setlocal tw=72 sw=2
 setlocal tabstop=8 
 setlocal omnifunc=tex_nine#OmniCompletion
 setlocal completefunc=tex_nine#MathCompletion 
