@@ -482,7 +482,7 @@ class TeXNineSnippets(object):
     """Snippet engine for TeX-9.
 
     """
-    _snippets = {'tex': {}, 'bib': {}}
+    _snippets = {'tex': {}, 'bib': {}, 'rnoweb': {}}
 
     def _parser(self, string):
         """Returns a 2-tuple with the snippet keyword and corresponding
